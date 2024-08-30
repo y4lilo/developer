@@ -1,6 +1,6 @@
 import random
 
-lista_palabras = ["programacion"]
+lista_palabras = ["programacion", "python", "javascript"]
 palabras = str(random.choice(lista_palabras))
 palabras = palabras.upper()
 palabra_juego = []
