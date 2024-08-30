@@ -3,7 +3,7 @@ Lo que hará esta función es devolver True si en algún momento se ha ingresado
 al numero cero repetido dos veces consecutivas."""
 
 
-def ejercicio3(*args):
+def repeticionNumero(*args):
     lista = []
     for i in range(len(args) - 1):
         if args[i] == 0 and args[i] == args[i + 1]:
@@ -11,4 +11,4 @@ def ejercicio3(*args):
     return False
 
 
-print(ejercicio3(2, 3, 0, 0, 3, 4))
+print(repeticionNumero(2, 3, 0, 0, 3, 4))
