@@ -14,8 +14,8 @@ def contar_primos(numero):
         else:
             lista_primos.append(contador)
             contador += 1
-    print(lista_primos)
-    return len(lista_primos)
+    print(f"LA LISTA DE PRIMOS ES -> {lista_primos}")
+    return print(f"HAY UN TOTAL DE {len(lista_primos)} PRIMOS")
 
 
-print(contar_primos(17))
+contar_primos(17)
